@@ -10,16 +10,23 @@
     <!-- <MyComponent /> -->
     <!-- <span v-pre>{{ message }}</span> -->
     <!-- <ExampleComponent id="test" name="example-component" /> -->
-    <ExampleComponent />
+    <!-- <ExampleComponent /> -->
+    <!-- <Bar /> -->
+    <ExampleVuex />
   </div>
 </template>
 
 <script>
 import ExampleComponent from '@/components/ExampleComponent'
+import Bar from '@/components/Bar'
+import ExampleVuex from '@/components/ExampleVuex'
+
 export default {
   name: 'App',
   components: {
-    ExampleComponent
+    ExampleComponent,
+    Bar,
+    ExampleVuex
   }
 }
 </script>
