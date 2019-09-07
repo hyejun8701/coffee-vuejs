@@ -43,7 +43,7 @@ export default {
 
       for (let i = 0; i < 3; i++) {
         listElements[i].textContent = 'new content'
-        console.log(`browser render proceed`)
+        console.log(`browser render proceed ${i}`)
       }
     }
   },
